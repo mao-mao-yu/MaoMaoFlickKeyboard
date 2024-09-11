@@ -1,0 +1,85 @@
+﻿<UserControl
+    x:Class="MaoMaoYuFlickKeyboard.Src.Controls.Kana"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MaoMaoYuFlickKeyboard.Src.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="340"
+    d:DesignWidth="415"
+    mc:Ignorable="d">
+    <Grid Width="415" Height="340">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <local:FlickKeyPart
+            Grid.Row="0"
+            Grid.Column="1"
+            ButtonInputTexts="あいうえお"
+            CenterButtonUIContent="あ" />
+        <local:FlickKeyPart
+            Grid.Row="0"
+            Grid.Column="2"
+            ButtonInputTexts="かきくけこ"
+            CenterButtonUIContent="か" />
+        <local:FlickKeyPart
+            Grid.Row="0"
+            Grid.Column="3"
+            ButtonInputTexts="さしすせそ"
+            CenterButtonUIContent="さ" />
+
+        <local:FlickKeyPart
+            Grid.Row="1"
+            Grid.Column="1"
+            ButtonInputTexts="たちつてと"
+            CenterButtonUIContent="た" />
+        <local:FlickKeyPart
+            Grid.Row="1"
+            Grid.Column="2"
+            ButtonInputTexts="なにぬねの"
+            CenterButtonUIContent="な" />
+        <local:FlickKeyPart
+            Grid.Row="1"
+            Grid.Column="3"
+            ButtonInputTexts="はひふへほ"
+            CenterButtonUIContent="は" />
+        <local:FlickKeyPart
+            Grid.Row="2"
+            Grid.Column="1"
+            ButtonInputTexts="まみむめも"
+            CenterButtonUIContent="ま" />
+        <local:FlickKeyPart
+            Grid.Row="2"
+            Grid.Column="2"
+            ButtonInputTexts="や「ゆ」よ"
+            CenterButtonUIContent="や" />
+        <local:FlickKeyPart
+            Grid.Row="2"
+            Grid.Column="3"
+            ButtonInputTexts="らりるれろ"
+            CenterButtonUIContent="ら" />
+
+        <local:FlickKeyPart
+            Grid.Row="3"
+            Grid.Column="2"
+            ButtonInputTexts="わをんー "
+            CenterButtonUIContent="わー" />
+        <local:FlickKeyPart
+            Grid.Row="3"
+            Grid.Column="3"
+            ButtonInputTexts="、。?! "
+            CenterButtonUIContent="、。?!"
+            FlickButtonFontSize="26" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,9 @@
+﻿<Application x:Class="MaoMaoYuFlickKeyboard.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MaoMaoYuFlickKeyboard"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary Source="Src/Resources/Styles.xaml" />
+    </Application.Resources>
+</Application>
