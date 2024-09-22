@@ -1,1 +1,1 @@
-#This is a Japanese flick keyboard project
+# This is a Japanese flick keyboard project
